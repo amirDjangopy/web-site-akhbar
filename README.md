@@ -58,6 +58,3 @@ To log in, use the username admin and the password password.
 
 Once logged in, you will have access to the news administration panel.
 
-Documentation
-
-For more information, please refer to the project's online documentation:
