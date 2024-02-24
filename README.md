@@ -1,39 +1,63 @@
-معرفی
-این پروژه یک سیستم مدیریت محتوای اخبار (CMS) است که با استفاده از فریمورک جنگو در پایتون نوشته شده است. این سیستم به شما امکان می دهد تا به راحتی اخبار را ایجاد، ویرایش و منتشر کنید.
+This project is a news content management system (CMS) written using the Django framework in Python. It allows you to easily create, edit, and publish news articles.
 
-ویژگی ها
-رابط کاربری آسان: این سیستم دارای یک رابط کاربری ساده و بصری است که استفاده از آن را برای هر کسی آسان می کند.
-مدیریت کامل اخبار: شما می توانید دسته بندی ها، برچسب ها و اخبار را به راحتی ایجاد، ویرایش و حذف کنید.
-سازگار با جستجوگر: این سیستم برای موتورهای جستجو بهینه شده است، به این معنی که اخبار شما به راحتی توسط کاربران پیدا می شود.
-امن: این سیستم از رمزنگاری و سایر اقدامات امنیتی برای محافظت از داده های شما استفاده می کند.
+Features
 
+Easy to use interface: The system has a simple and intuitive user interface that makes it easy for anyone to use.
 
-پیش نیازها
-پایتون 3.7 یا بالاتر
-جنگو 3.2 یا بالاتر
-یک پایگاه داده PostgreSQL
-نصب
-این پروژه را با استفاده از git clone کلون کنید:
-git clone https://github.com/your-username/django-news-project.git
-به دایرکتوری پروژه بروید:
-cd django-news-project
-محیط مجازی پایتون را فعال کنید:
-python -m venv venv
-وابستگی های پروژه را نصب کنید:
-pip install -r requirements.txt
-پایگاه داده PostgreSQL را راه اندازی کنید.
+Complete news management: You can easily create, edit, and delete categories, tags, and news articles.
 
-تنظیمات پایگاه داده را در فایل settings.py پیکربندی کنید.
+Automatic publishing: You can schedule news articles to be published at a future time.
 
-مهاجرت های پایگاه داده را اجرا کنید:
+Search engine friendly: The system is optimized for search engines, meaning your news articles will be easily found by users.
 
-python manage.py migrate
-سرور توسعه را اجرا کنید:
-python manage.py runserver
+Secure: The system uses encryption and other security measures to protect your data.
 
+Prerequisites
 
-استفاده 
+Python 3.7 or higher
 
-به آدرس http://127.0.0.1:8000/ در مرورگر خود بروید.
-برای ورود به سیستم، از نام کاربری admin و رمز عبور password استفاده کنید.
-پس از ورود به سیستم، می توانید به پنل مدیریت اخبار دسترسی داشته باشید.
+Django 3.2 or higher
+
+A PostgreSQL database
+
+Installation
+
+Clone this project using git clone:
+
+git clone https://github.com/your-username/django-news-project.git 
+
+Navigate to the project directory:
+
+cd django-news-project 
+
+Activate the Python virtual environment:
+
+python -m venv venv 
+
+Install the project's dependencies:
+
+pip install -r requirements.txt 
+
+Set up a PostgreSQL database.
+
+Configure the database settings in the settings.py file.
+
+Run the database migrations:
+
+python manage.py migrate 
+
+Run the development server:
+
+python manage.py runserver 
+
+Usage
+
+Go to http://127.0.0.1:8000/ in your browser.
+
+To log in, use the username admin and the password password.
+
+Once logged in, you will have access to the news administration panel.
+
+Documentation
+
+For more information, please refer to the project's online documentation:
